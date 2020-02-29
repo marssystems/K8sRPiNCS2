@@ -1,5 +1,5 @@
-# https://hub.docker.com/r/raspbian/stretch
-FROM raspbian/stretch:latest
+# https://hub.docker.com/r/raspbian/buster
+FROM raspbian/buster:latest
 
 ARG HOME_DIR=/root
 ARG INF_SRV=/root/inference_server
